@@ -5,7 +5,7 @@ The goal is to help online job platforms automatically flag suspicious job ads a
 
 ## **🔍 Project Overview**
 
-Problem: Online job scams are increasing, and manual moderation cannot scale.
+Problem: Online job scams are increasing, and manual moderation cannot scale.<br>
 Goal: Build a machine learning model that can classify job postings as real or fake.
 Approach: Use text features (TF-IDF), metadata, and ML models to identify fraud patterns.
 
