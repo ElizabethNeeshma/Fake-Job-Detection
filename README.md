@@ -14,7 +14,7 @@ Approach: Use text features (TF-IDF), metadata, and ML models to identify fraud 
 Source: Kaggle — Fake Job Posting Dataset
 Link: https://www.kaggle.com/datasets/shivamb/real-or-fake-fake-jobposting-prediction
 
-The dataset contains ≈18,000 job postings, where only a small portion are fake.
+The dataset contains 18,000 job postings, where only a small portion are fake.
 Columns include:
 
 title, company_profile, description, requirements, benefits
