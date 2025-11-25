@@ -27,41 +27,41 @@ employment_type, required_experience, required_education
 
 - Filled missing values
 
-Combined all text fields into one description
+- Combined all text fields into one description
 
-Converted text to lowercase and removed URLs, numbers, and punctuation
+- Converted text to lowercase and removed URLs, numbers, and punctuation
 
 ### **2. Feature Engineering**
 
-Used TF-IDF (unigrams and bigrams, 5,000 features)
+- Used TF-IDF (unigrams and bigrams, 5,000 features)
 
-Created numeric features (word count, sentence count, URL presence)
+- Created numeric features (word count, sentence count, URL presence)
 
-Applied One-Hot Encoding for categorical fields
+- Applied One-Hot Encoding for categorical fields
 
 ### **3. Model Training**
 
-Trained four machine learning models:
+- Trained four machine learning models:
 
-Logistic Regression (with balanced class weights)
+- Logistic Regression (with balanced class weights)
 
-Random Forest (300 trees)
+- Random Forest (300 trees)
 
-SVM (Calibrated)
+- SVM (Calibrated)
 
-XGBoost (best performance)
+- XGBoost (best performance)
 
 ### **4. Evaluation Metrics**
 
-Accuracy
+- Accuracy
 
-Precision
+- Precision
 
-Recall
+- Recall
 
-F1-score for the fake class (most important)
+- F1-score for the fake class (most important)
 
-ROC Curve and AUC
+- ROC Curve and AUC
 
 ## **🏆 Results**
 ## **Model Performance**
@@ -86,10 +86,10 @@ FAKE (0.87 probability)
 
 ## **🚀 Future Improvements**
 
-Use transformer models like BERT for better text understanding
+- Use transformer models like BERT for better text understanding
 
-Try imbalance methods such as SMOTE or focal loss
+- Try imbalance methods such as SMOTE or focal loss
 
-Add more features like company reputation or IP/geolocation
+- Add more features like company reputation or IP/geolocation
 
-Deploy the model as an API for real-time screening
+- Deploy the model as an API for real-time screening
