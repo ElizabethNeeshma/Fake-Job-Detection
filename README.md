@@ -25,7 +25,7 @@ employment_type, required_experience, required_education
  ## **⚙️Methodology**
 ### **1. Data Cleaning**
 
-Filled missing values
+- Filled missing values
 
 Combined all text fields into one description
 
