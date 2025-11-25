@@ -64,11 +64,15 @@ F1-score for the fake class (most important)
 ROC Curve and AUC
 
 ## **🏆 Results**
-Model	Accuracy	F1 (Fake Class)
-XGBoost	0.98	0.83
-SVM	0.98	0.82
-Logistic Regression	0.97	0.73
-Random Forest	0.97	0.70
+## **Model Performance**
+
+| Model               | Accuracy | F1 (Fake Class) |
+|---------------------|----------|-----------------|
+| XGBoost             | **0.98** | **0.83**        |
+| SVM                 | 0.98     | 0.82            |
+| Logistic Regression | 0.97     | 0.73            |
+| Random Forest       | 0.97     | 0.70            |
+
 
 XGBoost gave the best overall performance, especially for detecting fake posts.
 
